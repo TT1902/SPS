@@ -115,13 +115,10 @@ def full_analysis(user: UserProfile):
     }
 
 
-<<<<<<< HEAD
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
-=======
+
 import os
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run("main:app", host="0.0.0.0", port=port)
->>>>>>> 3fcd8b1a956b3e7d672ffce57cffc974bc032be7
+
