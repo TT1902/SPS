@@ -1,0 +1,12 @@
+# Sovereign Persona Sentinel — Backend Dependencies
+# All packages are free and open source
+# Gemini API calls use Python's built-in urllib — NO extra SDK needed
+
+fastapi==0.111.0
+uvicorn==0.29.0
+pydantic==2.7.1
+python-dotenv==1.0.1
+
+# Note: No openai package needed!
+# Gemini 1.5 Flash is called via urllib (Python stdlib) in gemini_client.py
+# Get your FREE Gemini API key at: https://aistudio.google.com/app/apikey
